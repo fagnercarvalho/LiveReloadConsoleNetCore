@@ -1,0 +1,13 @@
+{
+  "profiles": {
+    "LiveReloadConsoleNetCore": {
+      "commandName": "Project"
+    },
+    "Watch": {
+      "commandName": "Executable",
+      "executablePath": "dotnet.exe",
+      "commandLineArgs": "watch run",
+      "workingDirectory": "$(ProjectDir)"
+    }
+  }
+}
